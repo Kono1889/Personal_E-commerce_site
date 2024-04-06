@@ -1,12 +1,12 @@
 import React from "react";
 import './styles.css';
 import Cards from "./Cards";
-import tatum2 from '/home/kono/Desktop/web_dev/e-commerce_site/src/components/images/tatum-2-basketball-shoes-sn3SML-removebg-preview.png';
-import giannisImmortality from '/home/kono/Desktop/web_dev/e-commerce_site/src/components/images/giannis-immortality-3-5-the-hard-way-basketball-shoes-H93p2P.png'
-import ja1 from '/home/kono/Desktop/web_dev/e-commerce_site/src/components/images/ja-1-vacation-basketball-shoes-bCx2W3.png'
-import tatumVortex from '/home/kono/Desktop/web_dev/e-commerce_site/src/components/images/tatum-2-vortex-basketball-shoes-vxD2dS.jpeg'
-import usamaakram from '/home/kono/Desktop/web_dev/e-commerce_site/src/components/images/usama-akram-kP6knT7tjn4-unsplash-removebg-preview.png'
-import lebronGen2 from '/home/kono/Desktop/web_dev/e-commerce_site/src/components/images/lebron-nxxt-gen-basketball-shoes-55g4w1.png'
+import tatum2 from '../images/tatum-2-basketball-shoes-sn3SML-removebg-preview.png';
+import giannisImmortality from '../images/giannis-immortality-3-5-the-hard-way-basketball-shoes-H93p2P.png'
+import ja1 from '../images/ja-1-vacation-basketball-shoes-bCx2W3.png'
+import tatumVortex from '../images/tatum-2-vortex-basketball-shoes-vxD2dS.jpeg'
+import usamaakram from '../images/usama-akram-kP6knT7tjn4-unsplash-removebg-preview.png'
+import lebronGen2 from '../images/lebron-nxxt-gen-basketball-shoes-55g4w1.png'
 const SecondPage = () => {
     return (
         <div>
