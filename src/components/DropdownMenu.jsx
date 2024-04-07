@@ -9,7 +9,7 @@ const DropdownMenu = () => {
         <div className="dropdown">
             <div className="menu">
                 <></>
-                <DropdownItems>My Profile</DropdownItems>
+                <DropdownItems>Sign Up</DropdownItems>
                 {/* <DropdownItems leftIcon = {<></>} rightIcon={<></>}>
 
             </DropdownItems> */}
