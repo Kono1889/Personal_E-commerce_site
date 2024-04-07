@@ -200,3 +200,101 @@ a {
 .landing-card {
     margin-left: 50%;
 }
+
+.footer {
+    border-radius: 0.6rem;
+    color: #000000;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 0rem;
+}
+
+.footer-icons {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.section1, .section2, .section3, .section4 {
+    width: 100%;
+}
+
+.section-elements {
+    color: #575252;
+}
+
+.copyright {
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+
+/* Media query for smaller screens */
+@media screen and (min-width: 768px) {
+    .footer {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .landing-text {
+        font-size: 15em;
+        font-weight: 500;
+        display: flex;
+        padding-top: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .landing-text {
+        font-size: 8em;
+        font-weight: 500;
+    }
+
+    .landing-text img {
+        position: relative;
+        top: 6rem;
+        width: 30%;
+        height: 30%;
+    }
+    
+
+    .header-left a {
+        color: #000000;
+        font-size: 1rem;
+    
+    }
+
+    .card {
+        width: 15em;
+        height: 25rem;
+    }
+
+    .life-text {
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .featured-text {
+        font-size: 3rem;
+    
+    }
+
+    .landing-text2 {
+        max-width: 50%;
+        height: flex;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1rem;
+        margin-bottom: 5%;
+        color: #575252;
+    
+    }
+    
+    
+}

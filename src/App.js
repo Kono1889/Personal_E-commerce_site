@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import LandingPage from "./components/LandingpPage";
 import SecondPage from "./components/SecondPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <LandingPage/>
       <SecondPage/>
+      <Footer/>
     </div>
   );
 }
