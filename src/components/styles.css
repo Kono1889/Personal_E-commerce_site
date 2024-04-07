@@ -157,11 +157,13 @@ a {
     grid-template-columns: auto auto;
     font-size: 1.5rem;
     font-weight: 500;
+    margin-top: 50%;
 }
 
 .card-card-grid2{
     display: grid;
     grid-template-columns: auto auto;
+    margin-top: 50%;
 }
 
 .landing-text2 {
@@ -359,3 +361,5 @@ a {
     transition: 1s;
   }
   
+  /* Carousel */
+ 
