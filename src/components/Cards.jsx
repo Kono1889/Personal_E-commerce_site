@@ -1,4 +1,5 @@
 import React from "react";
+import CartPage from "./CartPage";
 
 
 const Cards = ({ imageSrc, title, price, colors,addToCart }) => {
