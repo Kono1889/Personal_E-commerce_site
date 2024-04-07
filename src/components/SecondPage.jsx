@@ -15,7 +15,7 @@ const SecondPage = () => {
             <p className="featured-text">FEATURED</p>
             <div className="featured-cards">
                 <div className="featured-cards-item">
-                    <Cards imageSrc={tatum2} title='TATUM 2' price='$130' colors='1 colour' />
+                    <Cards imageSrc={tatum2} title='TATUM 2' price='$130' colors='1 colour'/>
                 </div>
                 <div className="featured-cards-item">
                     <Cards imageSrc={giannisImmortality} title='Giannis Immortality' price='$130' colors='1 colour' />

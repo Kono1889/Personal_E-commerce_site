@@ -141,7 +141,11 @@ a {
     border-radius: 1rem;
     padding: 0.5rem;
     width: 25rem;
-    height: 35rem;
+    height: 37rem;
+}
+
+.card:hover{
+    cursor: pointer;
 }
 
 .card img {
@@ -155,14 +159,19 @@ a {
     font-weight: 500;
 }
 
+.card-card-grid2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .landing-text2 {
-    max-width: 50%;
+    /* max-width: 50%; */
     height: flex;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     font-size: 1.2rem;
     margin-bottom: 5%;
-    font-weight: 500;
+    font-weight: 300;
 
 }
 
@@ -271,7 +280,7 @@ a {
 
     .card {
         width: 15em;
-        height: 25rem;
+        height: 26rem;
     }
 
     .life-text {
@@ -298,3 +307,55 @@ a {
     
     
 }
+
+/* Cart Page */
+
+.cart-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cart-items {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item-details {
+    flex: 1;
+  }
+  
+  .remove-btn {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    background-color: #d15031;
+  }
+
+  .addBtn {
+    background-color: #2bbd3e;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    color: #e5e6eb;
+
+  }
+
+  .addBtn:hover{
+    background-color: #3a9946;
+    transition: 1s;
+  }
+  

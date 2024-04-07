@@ -7,13 +7,9 @@ const LandingPage = () => {
     return (
         <div>
             <p className="landing-text">HO<img src={picture1} alt="pic1" />PS</p>
-            <Cards
+            {/* <Cards
                 imageSrc={Nike}
-                // title='Lebron 20'
-                // price='$130'
-                // colors='1 colour'
-                // className = 'landing-card'
-            />
+            /> */}
             <p className="landing-text2">Our basketball shoes are more than just <br />high tops; they're a statement of your <br />commitment to the game</p>
 
         </div>

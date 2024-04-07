@@ -1,17 +1,18 @@
 import React from "react";
-import Header from "./components/Header";
-import LandingPage from "./components/LandingpPage";
-import SecondPage from "./components/SecondPage";
-import Footer from "./components/Footer";
+import FirstPage from "./components/FirstPage";
+import CartPage from "./components/CartPage"
+import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <LandingPage/>
-      <SecondPage/>
-      <Footer/>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/FirstPage" element={<FirstPage />} />
+        <Route path="/Cart" element={<CartPage />} />
+      </Routes>
+    </Router>
+
   );
 }
 
