@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<FirstPage />} />
         <Route path="/Cart" element={<CartPage />} />
+
       </Routes>
     </Router>
 

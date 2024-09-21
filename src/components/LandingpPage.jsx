@@ -8,7 +8,7 @@ import videobg from "../images/videobg.mp4";
 const LandingPage = () => {
     return (
         <div>
-            <video src={videobg} autoPlay loop muted/> 
+            <video className="video1" src={videobg} autoPlay loop muted/> 
             <div className="content">
                 <p className="landing-text">HOOPS</p>
                 <hr className="hor1"/>
